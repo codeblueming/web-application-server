@@ -8,16 +8,8 @@ import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
 
 public class HttpRequestUtils {
-    /**
-     * @param 
-     * @return
-     */
-    public static Map<String, String> mainSite(String inputInfo) {
-        return parseValues(inputInfo, " ");
-    }
-	
-	
-    /**
+
+	/**
      * @param queryString은
      *            URL에서 ? 이후에 전달되는 field1=value1&field2=value2 형식임
      * @return
