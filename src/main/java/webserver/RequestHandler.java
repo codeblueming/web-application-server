@@ -30,7 +30,7 @@ public class RequestHandler extends Thread {
             // TODO 사용자 요청에 대한 처리는 이 곳에 구현하면 된다.
         	BufferedReader br = new BufferedReader(new InputStreamReader(in, "UTF-8"));
         	
-        	// 클라이언트의 request 정보
+        	// 클라이언트의 request정보
         	String url = "";
         	String line = null;
         	while((line = br.readLine()) != null && !"".equals(line)) {
